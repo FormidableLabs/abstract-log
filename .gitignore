@@ -9,6 +9,7 @@ Icon
 
 # Thumbnails
 ._*
+.tmp
 
 # Files that might appear on external disk
 .Spotlight-V100
@@ -26,10 +27,7 @@ Desktop.ini
 $RECYCLE.BIN/
 
 # App specific
-
 coverage
 node_modules
 bower_components
-.tmp
-lib
 npm-debug.log

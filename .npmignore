@@ -1,0 +1,10 @@
+coverage
+node_modules
+bower_components
+demo
+test
+karma*
+webpack*
+.eslint*
+.editor*
+.travis*
