@@ -8,16 +8,11 @@ An micro log wrapper to implement production shims, loggers, etc.
 
 ## Build
 
-Build for production use (NPM, bower, etc).
+Build for production use (NPM, bower, etc) and create `dist` UMD bundles
+(min'ed, non-min'ed)
 
 ```
 $ npm run build
-```
-
-Which is composed of commands to create `dist` UMD bundles (min'ed, non-min'ed)
-
-```
-$ npm run build-dist
 ```
 
 Note that `dist/` files are only updated and committed on **tagged releases**.

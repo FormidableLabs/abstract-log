@@ -2,15 +2,17 @@
 
 var webpack = require("webpack");
 var path = require("path");
-var meta = require("./meta");
 
 module.exports = {
   cache: true,
-  entry: path.join(__dirname, "lib/index.js"),
+  entry: {
+    "abstract-log": path.join(__dirname, "lib/index.js"),
+    "abstract-log.shim": path.join(__dirname, "lib/shim.js")
+  },
   output: {
     path: path.join(__dirname, "dist"),
-    filename: meta.FILE_NAME + ".min.js",
-    library: meta.LIB_NAME,
+    filename: "[name].min.js",
+    library: "AbstractLog",
     libraryTarget: "umd"
   },
   plugins: [

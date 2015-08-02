@@ -2,7 +2,7 @@
   "name": "abstract-log",
   "version": "0.0.1",
   "description": "",
-  "main": "lib/index.js",
+  "main": "lib/abstract-log.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/formidable-labs/abstract-log.git"

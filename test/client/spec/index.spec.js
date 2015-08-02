@@ -1,6 +1,3 @@
-/**
- * Client tests
- */
 var todoRename = require("lib/index");
 
 describe("lib/index", function () {
