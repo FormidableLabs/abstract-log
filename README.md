@@ -8,8 +8,13 @@ An micro log wrapper to implement production shims, loggers, etc.
 The primary use case for this wrapper is for a project that needs to do _some_
 logging but doesn't want to take dependencies on a specific logger (like
 Bunyan, Winston, Good, etc.) or assume use in a specific environment (browser,
-Node.js, etc.). And it is easily configured as a straight shim to do nothing
-in the most lightweight manner possible.
+Node.js, _both_ etc.). And it is easily configured as a straight shim to do
+nothing in the most lightweight manner possible.
+
+As an example, the main impetus for the creation of AbstractLog is for small
+React components that have no other dependencies, want to log specific
+information in the _browser_ **and** in Node.js on the _server_, and leave
+the actual implementation of the logger up the consumer of the library code.
 
 
 ### Installation

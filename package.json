@@ -1,7 +1,7 @@
 {
   "name": "abstract-log",
   "version": "0.0.1",
-  "description": "",
+  "description": "A flexible, micro logging abstraction for the browser / server",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
