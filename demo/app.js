@@ -1,5 +1,11 @@
+var AbstractLog = require("../lib/index");
+var log = new AbstractLog({
+  instance: console,
+  shims: "debug,warn,info,error".split(",")
+});
+
 /*eslint-disable no-console*/
-console.log("TODO HI");
+log.warn("TODO HI");
 /*eslint-enable no-console*/
 
 /* TODO: Demos!
